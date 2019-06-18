@@ -107,7 +107,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Modeles/CommentaireDAO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="365">
               <caret line="124" column="72" selection-start-line="124" selection-start-column="72" selection-end-line="124" selection-end-column="72" />
               <folding>
                 <element signature="e#30#37#0#PHP" expanded="true" />
@@ -419,12 +419,12 @@
       <workItem from="1560754408304" duration="350000" />
       <workItem from="1560755071733" duration="30366000" />
       <workItem from="1560791020600" duration="4777000" />
-      <workItem from="1560862777748" duration="6726000" />
+      <workItem from="1560862777748" duration="5078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110536000" />
+    <option name="totallyTimeSpent" value="108913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,9 +437,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1213" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.20394173" />
-      <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" weight="0.19708654" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49674267" visible="true" weight="0.20394173" />
+      <window_info id="Structure" order="1" sideWeight="0.50325733" side_tool="true" weight="0.20394173" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
@@ -451,7 +452,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32247558" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32247558" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="12" visible="true" weight="0.3052764" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -859,7 +860,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Modeles/CommentaireDAO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="365">
           <caret line="124" column="72" selection-start-line="124" selection-start-column="72" selection-end-line="124" selection-end-column="72" />
           <folding>
             <element signature="e#30#37#0#PHP" expanded="true" />
