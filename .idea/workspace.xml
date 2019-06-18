@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01c844a7-90eb-4622-9444-faf53addd78c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/AjouterCommentaire.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/AjouterCommentaire.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/InscrirePrestataire.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/InscrirePrestataire.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modeles/ProfessionDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modeles/ProfessionDAO.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Modeles/ProfessionDAO.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="e#31#57#0#PHP" expanded="true" />
               </folding>
@@ -96,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/InscrirePrestataire.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
@@ -212,10 +211,10 @@
         <option value="$PROJECT_DIR$/app/Modeles/CommentaireDAO.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Modeles/ProfessionDAO.php" />
         <option value="$PROJECT_DIR$/app/Modeles/PrestataireDAO.php" />
         <option value="$PROJECT_DIR$/resources/views/AjouterCommentaire.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/InscrirePrestataire.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modeles/ProfessionDAO.php" />
       </list>
     </option>
   </component>
@@ -443,7 +442,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112780000" />
+    <option name="totallyTimeSpent" value="112986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -843,16 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modeles/ProfessionDAO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#31#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Modeles/PrestataireDAO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -881,6 +870,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modeles/ProfessionDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#31#57#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
