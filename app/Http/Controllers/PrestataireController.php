@@ -61,7 +61,9 @@ class PrestataireController extends Controller
         $prestataire->setEtablissement($request->input('etablissement'));
         $prestataire->setSalle($request->input('salle'));
         $prestataire->setDescription($request->input('description'));
-        $prestataire->setProfession($request->input('profession'))
+        $pro=new ProfessionDAO();
+        $p=$pro->getProfessionById($request->input('profession'));
+        $prestataire->setProfession($p);
 ;        $cli=new PrestataireDAO();
         $cli->creationPrestataire($prestataire);
         return view('Confirmation');

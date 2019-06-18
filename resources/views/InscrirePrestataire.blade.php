@@ -33,7 +33,7 @@
                     {!! Form::text('etablissement', null, ['class' => 'form-control', 'placeholder' => 'Rentrez le code de votre etablissement']) !!}
                     {!! $errors->first('etablissement', '<small class="help-block">:message</small>') !!}
                 </div>
-                <div class="form-group {!! $errors->has('salle') ? 'has-error' : '' !!}">
+                <div class="form-group ">
                     <label for="salle">Vous vous inscrivez en tant que louer de salle:</label>
 
                     <select name="salle" id="salle">
@@ -44,13 +44,18 @@
                 <div class="form-group ">
                     <label for="profession">Chosissez votre profession:</label>
                     <select name="profession" id="profession">
-                        <option value=" ">  </option>
+                        <option value="3" selected> decorateur </option>
                             @foreach($listeProfession as $p)
                                 <option value="{{$p->getId()}}">{{$p->getNom()}}</option>
                             @endforeach
 
                     </select>
+                    <div class="form-group {!! $errors->has('description') ? 'has-error' : '' !!}">
+                        {!! Form::textarea ('description', null, ['class' => 'form-control', 'placeholder' => 'Dites nous ce que vous en pensez']) !!}
+                        {!! $errors->first('description', '<small class="help-block">:message</small>') !!}
+                    </div>
                 </div>
+
 
                 {!! Form::submit('Valider', ['class' => 'btn btn-success pull-right']) !!}
                 {!! Form::close() !!}

@@ -10,7 +10,7 @@
 @section('contenu')
     <div class="col-sm-offset-3 col-sm-6">
         <div class="card align-items-center">
-            <div class="card-header bg-success ">Créer un annonce </div>
+            <div class="card-header bg-success ">Créer un commentaire </div>
             <div class="card-body ">
                 {!! Form::open(['url' => 'saisieCommentaire', "method"=>"post"]) !!}
                 {{csrf_field()}}
