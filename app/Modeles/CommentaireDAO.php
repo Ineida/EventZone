@@ -122,7 +122,7 @@ class CommentaireDAO extends DAO
 
     public function creationCommentaire(Commentaire $comm)
     {
-        DB::table('commentaire')->insert(['client' => $comm->getClient()->getId(), 'commentaire' => $comm->getCommentaire(),
+        DB::table('commentaire')->insert(['client' => $comm->getClient(), 'commentaire' => $comm->getCommentaire(),
              'note' => $comm->getNote(),
             'prestataire' => $comm->getPretataire()->getId(), 'etablissement' => $comm->getEtablissement()->getId(),
             'sujet' => $comm->getSujet()]);

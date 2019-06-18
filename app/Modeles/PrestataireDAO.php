@@ -123,7 +123,7 @@ class PrestataireDAO extends DAO
     public function creationPrestataire(prestataire $prestataire){
         DB::table('prestataire')->insert(['nom'=>$prestataire->getNom(),'adresse'=> $prestataire->getAdresse(),
             'telephone'=>$prestataire->getTelephone(), 'description'=>$prestataire->getDescription(),
-            'profession'=>$prestataire->getProfession()->getId(), 'etablissement'=>$prestataire->getEtablissement()->getId(),
+            'profession'=>$prestataire->getProfession()->getId(), 'etablissement'=>$prestataire->getEtablissement(),
             'salle'=>$prestataire->getSalle()]);
         if ($prestataire->getSalle()==1){
             $s=new SalleDAO();

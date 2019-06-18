@@ -34,8 +34,6 @@
                     {!! $errors->first('etablissement', '<small class="help-block">:message</small>') !!}
                 </div>
                 <div class="form-group {!! $errors->has('salle') ? 'has-error' : '' !!}">
-                    {!! Form::select(['salle',']) !!}
-                    {!! $errors->first('salle', '<small class="help-block">:message</small>') !!}
                     <label for="salle">Vous vous inscrivez en tant que louer de salle:</label>
 
                     <select name="salle" id="salle">

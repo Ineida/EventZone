@@ -24,6 +24,7 @@
                     <select name="etablissement" id="etablissement">
                         @foreach($etablissement as $p)
                             <option value="{{$p->getId()}}">{{$p->getNom()}}()</option>
+                        @endforeach
                     </select>
                 </div>
                 <div class="form-group {!! $errors->has('prestataire') ? 'has-error' : '' !!}">
@@ -31,6 +32,7 @@
                         <select name="prestataire" id="prestataire">
                             @foreach($prestataire as $p)
                                 <option value="{{$p->getId()}}">{{$p->getNom()}}()</option>
+                            @endforeach
                         </select>
                     </div>
                 <div class="form-group {!! $errors->has('sujet') ? 'has-error' : '' !!}">
@@ -38,7 +40,7 @@
                     {!! $errors->first('sujet', '<small class="help-block">:message</small>') !!}
                 </div>
                 <div class="form-group {!! $errors->has('note') ? 'has-error' : '' !!}">
-                    {!! Form::Integer('note', null, ['class' => 'form-control','placeholder' => 'donnez une note']) !!}
+                    {!! Form::text('note', null, ['class' => 'form-control','placeholder' => 'donnez une note']) !!}
                     {!! $errors->first('note', '<small class="help-block">:message</small>') !!}
                 </div>
                 <div class="form-group {!! $errors->has('commentaire') ? 'has-error' : '' !!}">

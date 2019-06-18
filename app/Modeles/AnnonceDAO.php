@@ -45,7 +45,7 @@ class AnnonceDAO extends DAO
 
     public function creationAnnonce(annonce $anonce)
     {
-        DB::table('annonce')->insert(['client' => $anonce->getClient()->getId(), 'sujet' => $anonce->getSujet(),
+        DB::table('annonce')->insert(['client' => $anonce->getClient()->getAuthIdentifier(), 'sujet' => $anonce->getSujet(),
              'description' => $anonce->getDescription()]);
     }
 
