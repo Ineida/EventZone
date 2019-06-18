@@ -59,10 +59,14 @@ class ClientController extends Controller
         $cli=new ClientDAO();
         $client=$cli->getIdClientParMail($request->input('email'));
         $com->setSujet($request->input('sujet'));
-        $com->setPretataire($request->input('prestataire'));
+        $pre=new PrestataireDAO();
+        $pr=$pre->getPrestataireParId($request->input('prestataire'));
+        $com->setPretataire($pr);
         $com->setCommentaire($request->input('commentaire'));
         $com->setNote($request->input('note'));
-        $com->setEtablissement($request->input('etablissement'));
+        $et=new EtablissementDAO();
+        $eta=$et->getEtablissementParId($request->input('etablissement'));
+        $com->setEtablissement($eta);
         $com->setClient($client);
 
         $commentaire=new CommentaireDAO();
