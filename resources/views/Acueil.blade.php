@@ -35,6 +35,8 @@
         et un système de notes basés sur les avis des particuliers
         ayant déjà eu affaire à un prestataire, plus besoin de
         paniquer pour organiser votre événement : cela devient à la portée de tous</p>
+        <p> Vous retrouverez tout les prestataires grace à notre plateforme.
+        <br/> Vous pouvez egalement laisser de commentaires ou postuler des annonce grace à votre compte utilisateur</p>
     </section>
     <section>
         <h2 class="align-content-center text-success">Services  </h2>
@@ -53,6 +55,8 @@
             <tr><td>Avis rédigés sur le
                     site</td><td></td><td>ok</td></tr>
             <tr><td><strong>Prix</strong></td><td>20 euros      </td><td>50 euros     </td></tr>
+
+            <p>Vous pouvez vous inscrire sur notre plateforme en tant qu'etablissement ou en tant que prestataire si vous le souhaitez. Cela vous permetta de gagner en visibilité.</p>
 
 
         </table>

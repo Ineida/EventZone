@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01c844a7-90eb-4622-9444-faf53addd78c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/AjouterAnnonce.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/AjouterAnnonce.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/AjouterCommentaire.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/AjouterCommentaire.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/InscrireEtablissement.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/InscrireEtablissement.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/InscrirePrestataire.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/InscrirePrestataire.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Acueil.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Acueil.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +50,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/Acueil.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="58" column="179" selection-start-line="58" selection-start-column="179" selection-end-line="58" selection-end-column="179" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/InscrirePrestataire.blade.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ClientController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-283">
@@ -182,7 +186,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/EtablissementController.php" />
         <option value="$PROJECT_DIR$/app/Modeles/ClientDAO.php" />
         <option value="$PROJECT_DIR$/resources/views/template.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/Acueil.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/listeEtablissement.blade.php" />
         <option value="$PROJECT_DIR$/app/Modeles/PrestataireDAO.php" />
         <option value="$PROJECT_DIR$/db/eventzone.sql" />
@@ -199,6 +202,7 @@
         <option value="$PROJECT_DIR$/resources/views/AjouterCommentaire.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/InscrirePrestataire.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" />
+        <option value="$PROJECT_DIR$/resources/views/Acueil.blade.php" />
       </list>
     </option>
   </component>
@@ -415,12 +419,12 @@
       <workItem from="1560754408304" duration="350000" />
       <workItem from="1560755071733" duration="30366000" />
       <workItem from="1560791020600" duration="4777000" />
-      <workItem from="1560862777748" duration="1946000" />
+      <workItem from="1560862777748" duration="2627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105756000" />
+    <option name="totallyTimeSpent" value="106437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,7 +439,7 @@
     <frame x="67" y="25" width="1213" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49837133" weight="0.20394173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.20394173" />
       <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" weight="0.19708654" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -448,7 +452,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32467532" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32410422" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="12" visible="true" weight="0.3052764" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -729,13 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Acueil.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Client.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -809,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/AjouterAnnonce.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/AjouterCommentaire.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -861,6 +851,20 @@
           <folding>
             <element signature="e#40#63#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/AjouterAnnonce.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Acueil.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="58" column="179" selection-start-line="58" selection-start-column="179" selection-end-line="58" selection-end-column="179" />
         </state>
       </provider>
     </entry>
