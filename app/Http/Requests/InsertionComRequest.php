@@ -30,6 +30,7 @@ class InsertionComRequest extends FormRequest
             'note'=>'required|min:1|max:1',
             'sujet' => 'required|min:2',
             'commentaire'=>'required',
+            'prestataire'=>'required',
 
         ];
     }
