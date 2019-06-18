@@ -13,7 +13,7 @@ class CommentaireDAO extends DAO
         $commentaires=DB::table('commentaire')->select('id','sujet','etablissement','client','prestataire','commentaire','note' )->where("etablissement","=",$idEtab)->get();
         if($commentaires){
             foreach ($commentaires as $lecommentaire){
-                $idCom=$lecommentaire->idCom;
+                $idCom=$lecommentaire->id;
                 $lesCommentaires[$idCom]=$this->creerObjetMetier($lecommentaire);
 
             }
@@ -25,7 +25,7 @@ class CommentaireDAO extends DAO
         $commentaires=DB::table('commentaire')->select('id','sujet','etablissement','client','prestataire','commentaire','note')->where("prestataire","=",$idP)->get();
         if($commentaires){
             foreach ($commentaires as $lecommentaire){
-                $idCom=$lecommentaire->idCom;
+                $idCom=$lecommentaire->id;
                 $lesCommentaires[$idCom]=$this->creerObjetMetier($lecommentaire);
 
             }
@@ -39,7 +39,7 @@ class CommentaireDAO extends DAO
         $commentaires = DB::table('commentaire')->select('id', 'sujet', 'etablissement', 'client', 'prestataire', 'commentaire', 'note')->where("etablissement", "=", $idE)->get();
         if ($commentaires) {
             foreach ($commentaires as $lecommentaire) {
-                $idCom = $lecommentaire->idCom;
+                $idCom = $lecommentaire->id;
                 $lesCommentaires[$idCom] = $this->creerObjetMetier($lecommentaire);
 
             }
@@ -82,7 +82,7 @@ class CommentaireDAO extends DAO
         $commentaires = DB::table('commentaire')->select('id', 'sujet', 'etablissement', 'client', 'prestataire', 'commentaire', 'note')->where("client", "=", $idC)->get();
         if ($commentaires) {
             foreach ($commentaires as $lecommentaire) {
-                $idCom = $lecommentaire->idCom;
+                $idCom = $lecommentaire->id;
                 $lesCommentaires[$idCom] = $this->creerObjetMetier($lecommentaire);
 
             }
