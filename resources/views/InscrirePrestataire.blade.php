@@ -14,7 +14,7 @@
             <div class="card-body">
                 <p> Avant tout inscription votre etablissement doit s'inscrire sur la plateforme, si vous voulez vous inscrire comme auto-entrepreneur, inscrivez vous comme etablissement avant de preceder à l'inscription de prestataire.
                 Vous devez connaitre votre code etablissement pour vous inscrire.</p>
-                {!! Form::open(['url' => 'saisiePrestataire']) !!}
+                {!! Form::open(['url' => 'saisiePrestataire', "method"=>"post"]) !!}
                 {{csrf_field()}}
                 {{method_field('post')}}
                 <div class="form-group {!! $errors->has('nom') ? 'has-error' : '' !!}">

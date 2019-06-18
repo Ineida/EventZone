@@ -12,7 +12,7 @@
         <div class="card align-items-center">
             <div class="card-header bg-success ">Créer un annonce </div>
             <div class="card-body ">
-                {!! Form::open(['url' => 'saisieCommentaire']) !!}
+                {!! Form::open(['url' => 'saisieCommentaire', "method"=>"post"]) !!}
                 {{csrf_field()}}
                 {{method_field('post')}}
                 <div class="form-group {!! $errors->has('email') ? 'has-error' : '' !!}">
