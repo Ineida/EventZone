@@ -30,6 +30,7 @@ class InsertionPrestaRequest extends FormRequest
             'telephone'=>'required',
             'profession'=>'required',
             'etablissement'=>'required',
+            'salle'=>"required",
 
         ];
     }
