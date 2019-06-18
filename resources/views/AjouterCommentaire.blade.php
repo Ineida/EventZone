@@ -20,7 +20,7 @@
                     {!! $errors->first('email', '<small class="help-block">:message</small>') !!}
                 </div>
                 <div class="form-group {!! $errors->has('etablissement') ? 'has-error' : '' !!}">
-                    <label for="etablissement">Chosissez la prestataire:</label>
+                    <label for="etablissement">Chosissez l'etablissement:</label>
                     <select name="etablissement" id="etablissement">
                         @foreach($etablissement as $p)
                             <option value="{{$p->getId()}}">{{$p->getNom()}}()</option>
