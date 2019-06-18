@@ -44,7 +44,7 @@
                 <div class="form-group ">
                     <label for="profession">Chosissez votre profession:</label>
                     <select name="profession" id="profession">
-
+                        <option value=" ">  </option>
                             @foreach($listeProfession as $p)
                                 <option value="{{$p->getId()}}">{{$p->getNom()}}</option>
                             @endforeach
