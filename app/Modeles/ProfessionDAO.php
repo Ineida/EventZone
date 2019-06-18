@@ -27,7 +27,7 @@ class ProfessionDAO extends DAO
 
     public function getIdProfession($nom){
         $prof = DB::table('profession')->where("nom",'=',$nom)->first();
-        return $prof;
+        return $prof->id;
     }
 
     public function getProfessionById($id){
