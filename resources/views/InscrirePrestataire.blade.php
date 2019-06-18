@@ -34,21 +34,23 @@
                     {!! $errors->first('etablissement', '<small class="help-block">:message</small>') !!}
                 </div>
                 <div class="form-group {!! $errors->has('salle') ? 'has-error' : '' !!}">
+                    {!! Form::select(['salle',']) !!}
+                    {!! $errors->first('salle', '<small class="help-block">:message</small>') !!}
                     <label for="salle">Vous vous inscrivez en tant que louer de salle:</label>
 
-                    <select id="salle">
+                    <select name="salle" id="salle">
                         <option value=1>OUI</option>
                         <option value=0 selected>NON</option>
                     </select>
                 </div>
                 <div class="form-group ">
                     <label for="profession">Chosissez votre profession:</label>
-                    <select id="profession">
-                        @if($listeProfession)
+                    <select name="profession" id="profession">
+
                             @foreach($listeProfession as $p)
                                 <option value="{{$p->getId()}}">{{$p->getNom()}}</option>
                             @endforeach
-                        @endif
+
                     </select>
                 </div>
 

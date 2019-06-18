@@ -11,7 +11,8 @@ use App\Modeles\CommentaireDAO;
 use App\Modeles\EtablissementDAO;
 use App\Modeles\PrestataireDAO;
 use App\Modeles\ProfessionDAO;
-use App\Http\Requests\InsertionConfRequest;
+use App\Http\Requests\InsertionComRequest;
+use App\Http\Requests\InsertionAnnonceRequest;
 use Illuminate\Http\Request;
 
 
@@ -34,7 +35,7 @@ class ClientController extends Controller
     }
     public function postAjouterAnnonce(InsertionAnnonceRequest $request){
         $annonce=new annonce();
-        $annonce->getDescription($request->input('description'));
+        $annonce->setDescription($request->input('description'));
         $annonce->setSujet($request->input('sujet'));
         $cli=new ClientDAO();
         $client=$cli->getClientParMail($request->input('email'));

@@ -19,14 +19,14 @@
                 </div>
                 <div class="form-group {!! $errors->has('etablissement') ? 'has-error' : '' !!}">
                     <label for="etablissement">Chosissez la prestataire:</label>
-                    <select id="etablissement">
+                    <select name="etablissement" id="etablissement">
                         @foreach($etablissement as $p)
                             <option value="{{$p->getId()}}">{{$p->getNom()}}()</option>
                     </select>
                 </div>
                 <div class="form-group {!! $errors->has('prestataire') ? 'has-error' : '' !!}">
                         <label for="prestataire">Chosissez la prestataire:</label>
-                        <select id="prestataire">
+                        <select name="prestataire" id="prestataire">
                             @foreach($prestataire as $p)
                                 <option value="{{$p->getId()}}">{{$p->getNom()}}()</option>
                         </select>

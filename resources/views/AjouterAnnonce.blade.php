@@ -10,8 +10,10 @@
 @section('contenu')
     <div class="col-sm-offset-3 col-sm-6">
             <div class="card align-items-center">
-                <div class="card-header bg-success">Créer un annonce </div>
+                <div class="card-header bg-success">Créer une annonce </div>
                 <div class="card-body">
+                    {{csrf_field()}}
+                    {{method_field('post')}}
                     {!! Form::open(['url' => 'saisieAnnonce',"method"=>"post"]) !!}
                     <div class="form-group {!! $errors->has('email') ? 'has-error' : '' !!}">
                         {!! Form::text('email', null, ['class' => 'form-control', 'placeholder' => 'Rentrez votre email']) !!}

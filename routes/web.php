@@ -32,7 +32,7 @@ Route::post('/saisieEtablissement','EtablissementController@postInscrireEtabliss
 
 Route::get('/Client/{id}','ClientController@getClient')->where('id', '[0-9]+');
 Route::get('/AjouterAnnonce','ClientController@AjouterAnnonce');
-Route::post('/saisieAnnonce','ClientController@postAjouterAnnonce')->name('saisie');
+Route::post('/saisieAnnonce','ClientController@postAjouterAnnonce');
 Route::get('/AjouterCommentaire','ClientController@AjouterCommentaire');
 Route::post('/saisieCommentaire','ClientController@postAjouterCommentaire');
 
