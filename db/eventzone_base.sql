@@ -8,7 +8,7 @@
 -- Version de PHP :  7.2.18
 drop if exists database if not exists eventzone_base;
 create database if not exists eventzone_base character set utf8 collate utf8_unicode_ci;
-use eventzone;
+use eventzone_base;
 grant all privileges on eventzone_base.* to 'formaweb_user'@'localhost' identified by 'secret';
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
