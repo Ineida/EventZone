@@ -6,7 +6,7 @@ namespace App\Modeles;
 use App\Metier\etablissement;
 use App\Metier\prestataire;
 use DB;
-
+use DB
 class PrestataireDAO extends DAO
 {
 
